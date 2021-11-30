@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+/* CSS HEADER - INICIO */
+
+header{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+}
+header .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+}
+header h1{
+    width: 150px;
+    font-size: 2.5em;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;;
+    font-size: 3.2em;
+    font-weight: 700;
+}
+header .header-menu ul{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+    margin-right: 40px;
+}
+header .header-menu ul li:not(:last-child){
+    margin-right: 20px;
+}
+.menu{
+    z-index: 1;
+}
+.menu ul{
+    padding: 29px;
+    list-style-type: none;
+    font-size: 1.3em;
+    color: #fff;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+.space{
+    z-index: 1;
+    margin: 100px 0;
+}
+.banner .title{
+    z-index: 1;
+    margin-left: 20px;
+    color:white;
+    font-size: 1.3em;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+
+/* CSS HEADER - FIM */
+
+/* CSS ARTIGOS - INCIO */
+
+
