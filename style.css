@@ -65,6 +65,7 @@ header .header-menu ul li:not(:last-child){
     padding: 29px;
     list-style-type: none;
     font-size: 1.3em;
+    font-family: 'roboto Condensed', sans-serif;
     color: #fff;
     display: grid;
     grid-auto-flow: column;
